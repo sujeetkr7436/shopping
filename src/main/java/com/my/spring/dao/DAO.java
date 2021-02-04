@@ -32,6 +32,7 @@ public class DAO {
 
     protected void begin() {
         getSession().beginTransaction();
+		//comment for testing
     }
 
     protected void commit() {
